@@ -19,7 +19,13 @@ function Header() {
   return (
     <header className="sticky top-0 bg-white">
       <div className="sm:flex w-full p-6 items-center">
-        <div className="mb-3 sm:mb-0 ">
+      <img
+            loading="lazy"
+            className="h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110 inline-flex sm:hidden absolute right-4"
+            src="https://images.squarespace-cdn.com/content/v1/57b711122e69cf5fea1cf5a6/1563373750117-4CCS2VSPC2XW4V1NI6HG/ke17ZwdGBToddI8pDm48kLJXQjpc-yWDKGokof8ZYb5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvMLJO5Nc1jHayiyhnEEdtiL0fAxQ5VfgiNwce99YG5amUuI-5NVRyc6OSuLOpZwE/Screen+Shot+2019-07-17+at+10.29.00+AM.png?format=1000w"
+            alt="profile pic"
+          />
+        <div className="mb-3 sm:mb-0 justify-between">
           <Image
             onClick={() => router.push("/")}
             src="https://ik.imagekit.io/7gyfsrb45jc3/logo_K4CZdNE90S.png"
@@ -27,12 +33,7 @@ function Header() {
             width={240}
             className="cursor-pointer"
           />
-          <img
-            loading="lazy"
-            className="h-10 rounded-full cursor-pointer transition duration-150 transform hover:scale-110 inline-flex sm:hidden align-top"
-            src="https://images.squarespace-cdn.com/content/v1/57b711122e69cf5fea1cf5a6/1563373750117-4CCS2VSPC2XW4V1NI6HG/ke17ZwdGBToddI8pDm48kLJXQjpc-yWDKGokof8ZYb5Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpyvMLJO5Nc1jHayiyhnEEdtiL0fAxQ5VfgiNwce99YG5amUuI-5NVRyc6OSuLOpZwE/Screen+Shot+2019-07-17+at+10.29.00+AM.png?format=1000w"
-            alt="profile pic"
-          />
+          
         </div>
         <form className="flex border-gray-200 flex-grow border rounded-full shadow-lg max-w-3xl items-center px-6 py-3 sm:ml-10 mr-5">
           <input

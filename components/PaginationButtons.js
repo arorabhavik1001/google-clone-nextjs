@@ -6,7 +6,7 @@ function PaginationButtons() {
     const startIndex = Number(router.query.start) || 0;
     const nextN = startIndex/10+2
     return (
-        <div className="flex max-w-lg  text-blue-700 mb-10">
+        <div className="flex sm:max-w-4xl sm:pl-52 text-blue-700 mb-10">
             {startIndex>=10 &&(
                 <Link href={`search?term=${router.query.term}&start=${startIndex-10}`}>
                     <div className="flex flex-grow flex-col items-center cursor-pointer hover:underline">
