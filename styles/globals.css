@@ -10,4 +10,8 @@
   .button {
     @apply bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-gray-800 hover:ring-1 focus:outline-none active:ring-green-50 m-7 hover:shadow-md
   }
+
+  .mainImage {
+    @apply absolute right-4
+  }
 }
