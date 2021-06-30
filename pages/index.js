@@ -41,9 +41,9 @@ export default function Home() {
         {/* <Image src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" width={300} height={100} /> */}
         <Image src="https://ik.imagekit.io/7gyfsrb45jc3/logo_K4CZdNE90S.png" width={605} height={100} />
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md  border rounded-full border-gray-200 py-1.5 items-center px-5 sm:max-w-xl lg:max-w-2xl">
-          <SearchIcon onClick={search} className="h-10 text-gray-500 mr-5 w-7 rounde-full cursor-pointer transition duration-150 transform hover:scale-110" />
-          <input ref={searchInputPointer} type="text" className="focus:outline-none flex-1" />
-          <MicrophoneIcon className="h-10 text-gray-500 w-7 rounde-full cursor-pointer transition duration-150 transform hover:scale-110" />
+          <SearchIcon onClick={search} className="h-6 text-gray-500 mr-5 w-7 rounde-full cursor-pointer transition duration-150 transform hover:scale-110" />
+          <input ref={searchInputPointer} type="text" className="focus:outline-none flex-1 h-9" />
+          <MicrophoneIcon className="h-7 text-gray-500 w-7 rounde-full cursor-pointer transition duration-150 transform hover:scale-110" />
         </div>
         <div> 
           <button onClick={search} className="button">
