@@ -5,7 +5,7 @@ function SearchResults({results}) {
             {results?.items.map((result) =>(
                 <div key={result.link} className="max-width-xl mb-8">
                   <div className="group">
-                      <a href={result.link} className="text-sm">{result.formattedUrl}</a>
+                      <a href={result.link} className="text-sm overflow-clip">{result.formattedUrl}</a>
                       <a href={result.link}>
                           <h2 className="group-hover:underline truncate text-xl text-blue-800 font-medium  ">
                               {result.title}
