@@ -3,9 +3,11 @@ function SearchResults({results}) {
         <div className="mx-auto w-full px-3 sm:pl-[5%] md:pl-[14%] lg:pl-52">
             <p className="text-gray-600 mb-5 mt-3 text-md">About {results.searchInformation?.formattedTotalResults} results in {results.searchInformation?.formattedSearchTime} seconds</p>
             {results?.items.map((result) =>(
-                <div key={result.link} className="max-width-sm sm:max-width-xl mb-8">
+                <div key={result.link} className="max-w-xl mb-8">
                   <div className="group">
+                      <div className="max-w-sm">
                       <a href={result.link} className="text-sm max-w-sm">{result.formattedUrl}</a>
+                      </div>
                       <a href={result.link}>
                           <h2 className="group-hover:underline truncate text-xl text-blue-800 font-medium  ">
                               {result.title}
