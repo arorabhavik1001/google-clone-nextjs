@@ -5,9 +5,9 @@ function SearchResults({results}) {
             {results?.items.map((result) =>(
                 <div key={result.link} className="max-w-xl mb-8">
                   <div className="group">
-                      <div className="max-w-sm">
-                      <a href={result.link} className="text-sm max-w-sm">{result.formattedUrl}</a>
-                      </div>
+                      {/* <div className="max-w-sm sm:max-w-xl"> */}
+                      <a href={result.link} className="text-sm break-words line-clamp-2">{result.formattedUrl}</a>
+                      {/* </div> */}
                       <a href={result.link}>
                           <h2 className="group-hover:underline truncate text-xl text-blue-800 font-medium  ">
                               {result.title}

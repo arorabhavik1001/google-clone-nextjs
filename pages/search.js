@@ -18,7 +18,9 @@ function Search({results}) {
         <title>{router.query.term} - Google Search</title>
       </Head>
       <Header />
+      {/* <div className="sm:max-w-sm"> */}
       <SearchResults results={results} />
+      {/* </div> */}
       <PaginationButtons />
     </div>
   );
