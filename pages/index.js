@@ -45,7 +45,7 @@ export default function Home() {
           <input ref={searchInputPointer} type="text" className="focus:outline-none flex-1 h-9" />
           <MicrophoneIcon className="h-7 text-gray-500 w-7 rounde-full cursor-pointer transition duration-150 transform hover:scale-110" />
         </div>
-        <div> 
+        <div className="flex flex-col sm:flex-row"> 
           <button onClick={search} className="button">
             Google Search
           </button>
