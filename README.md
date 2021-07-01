@@ -14,4 +14,4 @@ This is a google clone made using NextJs and Tailwind CSS! It actually works! Al
 10) Deployed on Vercel
 
 
-Check it out at google-clone-nextjs-ih85tgonk-arorabhavik1001.vercel.app
+Check it out at - google-clone-nextjs-ih85tgonk-arorabhavik1001.vercel.app
