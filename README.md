@@ -12,3 +12,6 @@ This is a google clone made using NextJs and Tailwind CSS! It actually works! Al
 8) NextJs routing and query params
 9) Uses all NextJs native components like Avatar, Images, Header, etc.
 10) Deployed on Vercel
+
+
+Check it out at google-clone-nextjs-ih85tgonk-arorabhavik1001.vercel.app
